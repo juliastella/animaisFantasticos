@@ -77,27 +77,29 @@
 /**--------------------aula 03 do modulo------------------*/
 
 // Adicione a classe ativo a todos os itens do menu
-const menu = document.querySelectorAll('.menu a');
+// const menu = document.querySelectorAll('.menu a');
 
-menu.forEach((item) => {
-  item.classList.add('ativo');
-})
+// menu.forEach((item) => {
+//   item.classList.add('ativo');
+// })
 
-// Remove a classe ativo de todos os itens do menu e mantenha apenas no primeiro
+// // Remove a classe ativo de todos os itens do menu e mantenha apenas no primeiro
 
-menu.forEach((item, index) => {
-  if (index !== 0) {
-    item.classList.remove('ativo');
-  } else {
-    item.classList.add('ativo');
-  }
-});
-// Verifique se as imagens possuem o atributo alt
+// menu.forEach((item, index) => {
+//   if (index !== 0) {
+//     item.classList.remove('ativo');
+//   } else {
+//     item.classList.add('ativo');
+//   }
+// });
+// // Verifique se as imagens possuem o atributo alt
 
-const imagens = document.querySelectorAll('img');
+// const imagens = document.querySelectorAll('img');
 
-imagens.setAttribute('alt');
+// imagens.setAttribute('alt');
 
-console.log(imagens);
-// Modifique o href do link externo no menu
+// console.log(imagens);
+// // Modifique o href do link externo no menu
+
+
 
